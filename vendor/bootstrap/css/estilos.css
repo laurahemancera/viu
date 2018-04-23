@@ -1,0 +1,57 @@
+
+TITULO{ 
+    font-family: 'Monoton', cursive;
+    size:10px;
+    }
+
+body{
+    font-family: 'Miltonian', cursive;
+    background: linear-gradient(270deg, #0cf7bb, #f70c7c, #ad0cf7);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 55s ease infinite;
+    -moz-animation: AnimationName 55s ease infinite;
+    animation: AnimationName 55s ease infinite;
+    }
+.contenedor{
+width: 80%;
+max-width: 1000px;
+margin:0 auto;
+}
+.imgRedonda{
+    width:100%;
+    height:auto;
+    border-radius:150px;
+}
+#girar{
+    
+    width: 200px;
+    height: 200px;
+    border-radius:200px solid black;
+    position: relative;
+    margin:auto;
+    margin-top: 80px;
+    transition: all 1s;
+    transform-origin: center center;
+    cursor: pointer;
+}
+#girar:hover{transform: rotate(360deg)
+
+}
+@media screen and (max-width:800px)
+{
+    body{
+        width: 100%;
+        padding-top: 70px;
+    }
+    .contenedor{
+        width: 100%;
+    }
+    ol {
+        width: 100%;
+    }
+}
+
+
+    
+    
